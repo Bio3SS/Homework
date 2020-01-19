@@ -59,6 +59,26 @@ Sources += asn.tmp copy.tex
 
 ##################################################################
 
+## qq pipeline
+## Pre-knit markup
+Ignore += *.ques
+%.ques: evaluation/%.ques lect/knit.fmt talk/lect.pl
+	$(PUSH)
+
+## Knit
+Ignore += *.qq
+knit = echo 'knitr::knit("$<", "$@")' | R --vanilla
+%.qq: %.ques
+	$(knit)
+
+##################################################################
+
+## rmd export files (see content.mk)
+
+Sources += $(wildcard *.rmd)
+
+######################################################################
+
 ## lect and talk resources
 
 Ignore += lect
@@ -99,6 +119,6 @@ makestuff/Makefile:
 -include makestuff/git.mk
 -include makestuff/visual.mk
 -include makestuff/projdir.mk
--include makestuff/pandoc.mk
 -include makestuff/wrapR.mk
 -include makestuff/texdeps.mk
+-include makestuff/pandoc.mk
