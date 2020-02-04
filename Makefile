@@ -41,6 +41,8 @@ pg.asn.pdf: evaluation/pg.ques
 pg.key.pdf: evaluation/pg.ques
 pg.rub.pdf: evaluation/pg.ques
 
+## Remember content.mk
+
 ######################################################################
 
 ## Main lect.pl products
