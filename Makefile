@@ -18,6 +18,7 @@ vim_session:
 
 ######################################################################
 
+## 2020 reorg
 ## Actively cribbing; delete when empty
 Sources += content.mk
 
