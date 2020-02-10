@@ -57,28 +57,6 @@ expl.asn.pdf: evaluation/expl.ques
 
 ######################################################################
 
-## lect and talk resources
-
-Ignore += lect
-.PRECIOUS: lect/%
-lect/%: 
-	$(MAKE) lect
-
-lect: dir=makestuff
-lect:
-	$(linkdir)
-
-Ignore += talk
-.PRECIOUS: talk/%
-talk/%: 
-	$(MAKE) talk
-
-talk: dir=makestuff/newtalk
-talk:
-	$(linkdirname)
-
-######################################################################
-
 ## rmd pipelining (much to be done!)
 
 rmd = $(wildcard *.rmd)

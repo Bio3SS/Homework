@@ -18,6 +18,7 @@ vim_session:
 
 ######################################################################
 
+## 2020 reorg
 ## Actively cribbing; delete when empty
 Sources += content.mk
 
@@ -35,10 +36,12 @@ intro.asn.pdf: evaluation/intro.ques
 intro.key.pdf: evaluation/intro.ques
 
 ## Population growth
-## For-credit 2018, 2019
+## For-credit 2018, 2019, 2020
 pg.asn.pdf: evaluation/pg.ques
 pg.key.pdf: evaluation/pg.ques
 pg.rub.pdf: evaluation/pg.ques
+
+## Remember content.mk
 
 ######################################################################
 
