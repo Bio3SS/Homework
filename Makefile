@@ -76,7 +76,7 @@ knit = echo 'knitr::knit("$<", "$@")' | R --vanilla
 
 ##################################################################
 
-## rmd export files (see content.mk)
+## rmd export files
 
 Sources += $(wildcard *.rmd)
 

@@ -2,13 +2,6 @@
 
 ######################################################################
 
-## Intro R (NFC, moved from wiki)
-## This doesn't link perfectly here. shiprmd to send it to it's native home
-# r.export.gh.html: r.rmd
-# bd.export.gh.html: bd.rmd
-
-######################################################################
-
 ### ADD point outline to future HWs!
 
 ## For-credit 2018
