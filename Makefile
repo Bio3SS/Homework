@@ -111,7 +111,7 @@ shiprmd: $(shiprmd)
 
 ### ADD point outline to future HWs!
 
-## For-credit 2018
+## For-credit 2018, 2020 maybe other times
 ## Regulation (uses some R, lives here, points to wiki)
 regulation.asn.pdf: evaluation/regulation.ques
 regulation.key.pdf: evaluation/regulation.ques
