@@ -41,6 +41,17 @@ pg.asn.pdf: evaluation/pg.ques
 pg.key.pdf: evaluation/pg.ques
 pg.rub.pdf: evaluation/pg.ques
 
+## NFC 2020
+life_history.asn.pdf: evaluation/life_history.ques
+life_history.key.pdf: evaluation/life_history.ques
+
+## For-credit 2020
+competition.asn.pdf: evaluation/competition.ques
+competition.key.pdf: evaluation/competition.ques
+competition.rub.pdf: evaluation/competition.ques
+
+expl.asn.pdf: evaluation/expl.ques
+
 ## Remember content.mk
 
 ######################################################################
