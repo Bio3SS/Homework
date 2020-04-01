@@ -52,6 +52,9 @@ competition.rub.pdf: evaluation/competition.ques
 
 expl.asn.pdf: evaluation/expl.ques
 
+evaluation/%.pdf: $(wildcard evaluation/*.R)
+	$(makethere)
+
 ## Remember content.mk
 
 ######################################################################
@@ -151,7 +154,6 @@ allee.asn.pdf: evaluation/allee.ques
 structure.asn.pdf: evaluation/structure.ques
 structure.key.pdf: evaluation/structure.ques
 structure.rub.pdf: evaluation/structure.ques
-
 
 ## lect and talk resources
 
