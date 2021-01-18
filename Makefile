@@ -196,5 +196,5 @@ makestuff/Makefile:
 -include makestuff/visual.mk
 -include makestuff/projdir.mk
 -include makestuff/wrapR.mk
--include makestuff/texdeps.mk
+-include makestuff/texi.mk
 -include makestuff/pandoc.mk
