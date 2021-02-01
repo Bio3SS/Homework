@@ -36,7 +36,7 @@ intro.asn.pdf: evaluation/intro.ques
 intro.key.pdf: evaluation/intro.ques
 
 ## Population growth
-## For-credit 2018, 2019, 2020
+## For-credit 2018, 2019, 2020, 2021
 pg.asn.pdf: evaluation/pg.ques
 pg.key.pdf: evaluation/pg.ques
 pg.rub.pdf: evaluation/pg.ques
