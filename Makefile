@@ -9,7 +9,6 @@ current: target
 
 ## 2019 Mar 10 (Sun) DEPRECATE all working subdirectories; use source!
 ## If kids can do it, we can do it
-## Also: working on stepR local pipelines
 
 # Content
 
@@ -17,10 +16,6 @@ vim_session:
 	bash -cl "vmt"
 
 ######################################################################
-
-## 2020 reorg
-## Actively cribbing; delete when empty
-Sources += content.mk
 
 pardirs += evaluation
 pushdir = ../web/materials
