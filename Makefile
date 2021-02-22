@@ -85,6 +85,8 @@ knit = echo 'knitr::knit("$<", "$@")' | R --vanilla
 
 ##################################################################
 
+## What if we make and export html?? Stand-alone?
+
 ## rmd pipelining (much to be done!)
 
 # r.rmdout: r.rmd
