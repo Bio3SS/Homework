@@ -17,8 +17,11 @@ vim_session:
 
 ######################################################################
 
-pardirs += evaluation
+pardirs += evaluation Life_tables
 pushdir = ../web/materials
+
+alldirs += $(pardirs)
+hotdirs += $(pardirs)
 
 ######################################################################
 
@@ -147,7 +150,8 @@ regulation.key.pdf regulation.rub.pdf: regulation.Rout-0.pdf regulation.Rout-1.p
 allee.asn.pdf: evaluation/allee.ques
 
 ## Structure assignment
-## For-credit 2018
+## For-credit 2018; this depends on the long version of the unit
+## 2021; the Euler equation part is suppressed
 structure.asn.pdf: evaluation/structure.ques
 structure.key.pdf: evaluation/structure.ques
 structure.rub.pdf: evaluation/structure.ques
@@ -189,9 +193,12 @@ makestuff/Makefile:
 
 -include makestuff/os.mk
 
--include makestuff/git.mk
--include makestuff/visual.mk
--include makestuff/projdir.mk
+## Seems ancient, do we use it?
+## -include makestuff/projdir.mk
 -include makestuff/wrapR.mk
 -include makestuff/texi.mk
 -include makestuff/pandoc.mk
+-include makestuff/hotcold.mk
+
+-include makestuff/git.mk
+-include makestuff/visual.mk
