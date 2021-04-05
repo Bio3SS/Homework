@@ -43,17 +43,21 @@ pg.rub.pdf: evaluation/pg.ques
 life_history.asn.pdf: evaluation/life_history.ques
 life_history.key.pdf: evaluation/life_history.ques
 
-## For-credit 2020
+## For-credit 2020; 2021
 competition.asn.pdf: evaluation/competition.ques
 competition.key.pdf: evaluation/competition.ques
 competition.rub.pdf: evaluation/competition.ques
 
+## Only semi-rescued (key does not work)
 expl.asn.pdf: evaluation/expl.ques
+expl.key.pdf: evaluation/expl.ques
+
+######################################################################
+
+evaluation/comp_figures.Rout.pdf:
 
 evaluation/%.pdf: $(wildcard evaluation/*.R)
-	$(makethere)
-
-## Remember content.mk
+	$(justmakethere)
 
 ######################################################################
 
