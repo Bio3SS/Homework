@@ -1,4 +1,6 @@
 ## This is Homework, a screens project directory
+## Still working on R transition
+## I'm thinking to move rules and products here, and just use evaluation for the secret files/
 
 current: target
 -include target.mk
@@ -6,9 +8,6 @@ current: target
 -include makestuff/perl.def
 
 ######################################################################
-
-## 2019 Mar 10 (Sun) DEPRECATE all working subdirectories; use source!
-## If kids can do it, we can do it
 
 # Content
 
@@ -44,13 +43,17 @@ life_history.asn.pdf: evaluation/life_history.ques
 life_history.key.pdf: evaluation/life_history.ques
 
 ## For-credit 2020; 2021
+## Investigate legendSize
 competition.asn.pdf: evaluation/competition.ques
 competition.key.pdf: evaluation/competition.ques
 competition.rub.pdf: evaluation/competition.ques
 
-## Only semi-rescued (key does not work)
+## Only semi-rescued (key does not work; we haven't made a new-style web intervace for the function)
 expl.asn.pdf: evaluation/expl.ques
 expl.key.pdf: evaluation/expl.ques
+
+expl_figures.Rout: evaluation/expl_figures.R
+	(pipeR)
 
 ######################################################################
 
@@ -146,7 +149,6 @@ evaluation/regulation.R: bd.R ;
 bd.R:
 	wget -O $@ "https://raw.githubusercontent.com/Bio3SS/Exponential_figures/master/bd.R" 
 
-## Definitely want to be working on stepR pipelining!
 regulation.key.pdf regulation.rub.pdf: regulation.Rout-0.pdf regulation.Rout-1.pdf regulation.Rout-2.pdf regulation.Rout-3.pdf regulation.Rout-4.pdf
 
 ## An allee question that has fallen between the cracks. Could be added to the previous or following assignment
@@ -199,7 +201,7 @@ makestuff/Makefile:
 
 ## Seems ancient, do we use it?
 ## -include makestuff/projdir.mk
--include makestuff/wrapR.mk
+-include makestuff/pipeR.mk
 -include makestuff/texi.mk
 -include makestuff/pandoc.mk
 -include makestuff/hotcold.mk
