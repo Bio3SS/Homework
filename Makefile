@@ -43,7 +43,7 @@ life_history.asn.pdf: evaluation/life_history.ques
 life_history.key.pdf: evaluation/life_history.ques
 
 ## For-credit 2020; 2021
-## Investigate legendSize
+## Investigate legendSize; why is it never up-to-date??
 competition.asn.pdf: evaluation/competition.ques
 competition.key.pdf: evaluation/competition.ques
 competition.rub.pdf: evaluation/competition.ques
