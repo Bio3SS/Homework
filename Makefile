@@ -22,6 +22,8 @@ pushdir = ../web/materials
 alldirs += $(pardirs)
 hotdirs += $(pardirs)
 
+Ignore += $(pardirs)
+
 ######################################################################
 
 ## Assignments
