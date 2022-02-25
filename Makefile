@@ -142,14 +142,9 @@ regulation.rub.pdf: evaluation/regulation.ques
 
 ## Pipelining with .R files
 ## 2019 Mar 10 (Sun)
-regulation.qq: evaluation/regulation.RData
-regulation.Rout: evaluation/regulation.R
-	$(run-R)
+regulation.qq: evaluation/regulation.rda
 
 Ignore += bd.R
-evaluation/regulation.R: bd.R ;
-bd.R:
-	wget -O $@ "https://raw.githubusercontent.com/Bio3SS/Exponential_figures/master/bd.R" 
 
 regulation.key.pdf regulation.rub.pdf: regulation.Rout-0.pdf regulation.Rout-1.pdf regulation.Rout-2.pdf regulation.Rout-3.pdf regulation.Rout-4.pdf
 
@@ -207,6 +202,7 @@ makestuff/Makefile:
 -include makestuff/texi.mk
 -include makestuff/pandoc.mk
 -include makestuff/hotcold.mk
+-include makestuff/pdfpages.mk
 
 -include makestuff/git.mk
 -include makestuff/visual.mk
