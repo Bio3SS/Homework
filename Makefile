@@ -134,6 +134,8 @@ shiprmd: $(shiprmd)
 
 ### ADD point outline to future HWs!
 
+######################################################################
+
 ## For-credit 2018, 2020 maybe other times
 ## Regulation (uses some R, lives here, points to wiki)
 regulation.asn.pdf: evaluation/regulation.ques
@@ -146,7 +148,10 @@ regulation.qq: evaluation/regulation.rda
 
 Ignore += bd.R
 
-regulation.key.pdf regulation.rub.pdf: regulation.Rout-0.pdf regulation.Rout-1.pdf regulation.Rout-2.pdf regulation.Rout-3.pdf regulation.Rout-4.pdf
+## There is some weird spinny makiness going on here.
+## regulation.key.pdf regulation.rub.pdf: regulation.Rout-0.pdf regulation.Rout-1.pdf regulation.Rout-2.pdf regulation.Rout-3.pdf regulation.Rout-4.pdf
+
+######################################################################
 
 ## An allee question that has fallen between the cracks. Could be added to the previous or following assignment
 ## Previous assignment currently has a detailed Allee question, though.
