@@ -92,6 +92,7 @@ Ignore += *.ques
 ## Knit
 Ignore += *.qq
 knit = echo 'knitr::knit("$<", "$@")' | R --vanilla
+.PRECIOUS: %.qq
 %.qq: %.ques
 	$(knit)
 
