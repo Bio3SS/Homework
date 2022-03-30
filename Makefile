@@ -46,6 +46,7 @@ life_history.key.pdf: evaluation/life_history.ques
 
 ## For-credit 2020; 2021
 ## Investigate legendSize; why is it never up-to-date??
+## Documentation stuff lives in the web directory
 competition.asn.pdf: evaluation/competition.ques
 competition.key.pdf: evaluation/competition.ques
 competition.rub.pdf: evaluation/competition.ques
