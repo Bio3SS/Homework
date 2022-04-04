@@ -51,12 +51,12 @@ competition.asn.pdf: evaluation/competition.ques
 competition.key.pdf: evaluation/competition.ques
 competition.rub.pdf: evaluation/competition.ques
 
-## Only semi-rescued (key does not work; we haven't made a new-style web interface for the function)
+## Only semi-rescued (key does not work)
 expl.asn.pdf: evaluation/expl.ques
 expl.key.pdf: evaluation/expl.ques
 
 expl_figures.Rout: evaluation/expl_figures.R
-	(pipeR)
+	$(pipeR)
 
 ######################################################################
 
