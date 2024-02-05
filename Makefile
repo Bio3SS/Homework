@@ -1,6 +1,5 @@
 ## This is Homework, a screens project directory
-## Still working on R transition
-## I'm thinking to move rules and products here, and just use evaluation for the secret files/
+## Rules and products here. evaluation/ is only for the secret files (current answers, I guess)
 
 current: target
 -include target.mk
