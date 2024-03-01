@@ -40,6 +40,7 @@ pg.key.pdf: evaluation/pg.ques
 pg.rub.pdf: evaluation/pg.ques
 
 ## NFC 2020
+## FC 2024
 life_history.asn.pdf: evaluation/life_history.ques
 life_history.key.pdf: evaluation/life_history.ques
 
@@ -136,8 +137,8 @@ shiprmd: $(shiprmd)
 
 ######################################################################
 
-## For-credit 2018, 2020 maybe other times
 ## Regulation (uses some R, lives here, points to wiki)
+## For-credit 2018, 2020 maybe other times, 2024
 regulation.asn.pdf: evaluation/regulation.ques
 regulation.key.pdf: evaluation/regulation.ques
 regulation.rub.pdf: evaluation/regulation.ques
