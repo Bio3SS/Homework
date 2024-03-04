@@ -19,7 +19,9 @@ pardirs += evaluation Life_tables
 pushdir = ../web/materials
 
 alldirs += $(pardirs)
-hotdirs += $(pardirs)
+
+colddirs += $(pardirs)
+## hotdirs += $(pardirs)
 
 Ignore += $(pardirs)
 
