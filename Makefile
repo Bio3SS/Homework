@@ -165,6 +165,7 @@ allee.asn.pdf: evaluation/allee.ques
 ## For-credit 2018; this depends on the long version of the unit
 ## 2021; the Euler equation part is suppressed
 ## Generally use Euler when NFC
+## 2024 NFC with Euler
 structure.asn.pdf: evaluation/structure.ques
 structure.key.pdf: evaluation/structure.ques
 structure.rub.pdf: evaluation/structure.ques
