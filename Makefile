@@ -45,6 +45,7 @@ pg.rub.pdf: evaluation/pg.ques
 ## FC 2024
 life_history.asn.pdf: evaluation/life_history.ques
 life_history.key.pdf: evaluation/life_history.ques
+life_history.rub.pdf: evaluation/life_history.ques
 
 ## For-credit 2020; 2021
 ## Documentation stuff lives in the web directory
