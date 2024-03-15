@@ -49,9 +49,10 @@ life_history.rub.pdf: evaluation/life_history.ques
 
 ## For-credit 2020; 2021
 ## Documentation stuff lives in the web directory
-competition.asn.pdf: evaluation/competition.ques
-competition.key.pdf: evaluation/competition.ques
-competition.rub.pdf: evaluation/competition.ques
+evaluation/competition.ques: evaluation/comp_par.R ;
+## competition.asn.pdf: evaluation/competition.ques
+## competition.key.pdf: evaluation/competition.ques evaluation/comp_par.R
+## competition.rub.pdf: evaluation/competition.ques
 
 ## For-credit 2022, may be a bit rough after its vacation
 expl.asn.pdf: evaluation/expl.ques
