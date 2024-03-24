@@ -23,7 +23,9 @@ alldirs += $(pardirs)
 colddirs += $(pardirs)
 ## hotdirs += $(pardirs)
 
+## Pull while working, but don't push repeatedly?
 Ignore += $(pardirs)
+pull: $(pardirs:%=%.pull)
 
 ######################################################################
 
