@@ -30,12 +30,12 @@ type
 `2+2`
 
 followed by <enter>
-to see what R thinks the sum is.
+to see what R thinks the sum is. You can also see whether you agree with this answer.
 
 Type `q()` to quit. The parentheses are weird, they let R know that q is
 a *function* it is supposed to try to execute, in this case by quitting.
-After you type `q()` R will ask you some sort of confusing question:
-answer either yes or no, it probably shouldn't matter.
+After you type `q()` R may ask you one or more confusing question:
+answer either yes or no, it shouldn't matter.
 
 If R ever gets confused, you should be able to get it to give you an
 error and go back to normal by typing `;` and then <enter>

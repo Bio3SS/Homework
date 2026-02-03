@@ -126,6 +126,7 @@ Ignore += *.export.* *_files/
 %.export.md: %.yaml.md %.rmd.md
 	$(cat)
 
+## r.rmdout: r.rmd
 %.rmdout: %.export.md
 	- $(RMR) $(pushdir)/$*.rmd_files
 	$(CP) -r $< $(pushdir)
