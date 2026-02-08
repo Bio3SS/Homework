@@ -1,6 +1,8 @@
 ## This is Homework, a screens project directory
 ## Rules and products here. evaluation/ is only for the secret files (current answers, I guess)
 
+## https://avenue.cllmcmaster.ca/d2l/home/757445
+
 current: target
 -include target.mk
 
