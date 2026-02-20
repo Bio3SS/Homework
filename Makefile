@@ -29,7 +29,7 @@ pull: $(pardirs:%=%.pull)
 
 ######################################################################
 
-## Assignments
+## Assignments (see also rmd R background material below; R assignments are in this section)
 
 Ignore += *.asn.* *.key.* *.rub.*
 
@@ -38,7 +38,7 @@ intro.asn.pdf: evaluation/intro.ques
 intro.key.pdf: evaluation/intro.ques
 
 ## Population growth
-## For-credit 2018, 2019, 2020, 2021
+## For-credit 2018, 2019, 2020, 2021, 2026
 pg.asn.pdf: evaluation/pg.ques
 pg.key.pdf: evaluation/pg.ques
 pg.rub.pdf: evaluation/pg.ques
@@ -145,8 +145,8 @@ shiprmd: $(shiprmd)
 ######################################################################
 
 ## Regulation (uses some R, lives here, points to wiki)
-## For-credit 2018, 2020 maybe other times, 2024
-regulation.asn.pdf: evaluation/regulation.ques
+## For-credit 2018, 2020 maybe other times, 2024, 2026
+regulation.asn.pdf: evaluation/regulation.ques evaluation/regulation.R
 regulation.key.pdf: evaluation/regulation.ques
 regulation.rub.pdf: evaluation/regulation.ques
 
