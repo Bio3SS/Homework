@@ -173,6 +173,7 @@ allee.asn.pdf: evaluation/allee.ques
 ## 2021; the Euler equation part is suppressed
 ## Generally use Euler when NFC
 ## 2024 NFC with Euler
+## 2026 NFC with Euler
 structure.asn.pdf: evaluation/structure.ques
 structure.key.pdf: evaluation/structure.ques
 structure.rub.pdf: evaluation/structure.ques
