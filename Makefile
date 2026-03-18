@@ -61,6 +61,7 @@ evaluation/competition.ques: evaluation/comp_par.R ;
 ## For-credit 2022, may be a bit rough after its vacation
 expl.asn.pdf: evaluation/expl.ques
 expl.key.pdf: evaluation/expl.ques
+expl.rub.pdf: evaluation/expl.ques
 
 expl_figures.Rout: evaluation/expl_figures.R
 	$(pipeR)
