@@ -59,6 +59,8 @@ evaluation/competition.ques: evaluation/comp_par.R ;
 ## competition.rub.pdf: evaluation/competition.ques
 
 ## For-credit 2022, may be a bit rough after its vacation
+## For-credit 2026 (it was NFC in 2023 and/or 4)
+## No specific numbers, so can't catch cheaters easily.
 expl.asn.pdf: evaluation/expl.ques
 expl.key.pdf: evaluation/expl.ques
 expl.rub.pdf: evaluation/expl.ques
