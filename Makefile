@@ -13,7 +13,7 @@ current: target
 # Content
 
 vim_session:
-	bash -cl "vmt"
+	bash -ic "vmt"
 
 ######################################################################
 
